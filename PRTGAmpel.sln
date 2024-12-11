@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRTGAmpel", "PRTGAmpel\PRTGAmpel.csproj", "{77C75B08-116B-4E14-A658-915C0BDDB339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configurator", "Configurator\Configurator.csproj", "{B3280D8C-839F-4DA2-87B9-98E9EEB2B01C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77C75B08-116B-4E14-A658-915C0BDDB339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C75B08-116B-4E14-A658-915C0BDDB339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C75B08-116B-4E14-A658-915C0BDDB339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C75B08-116B-4E14-A658-915C0BDDB339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3280D8C-839F-4DA2-87B9-98E9EEB2B01C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3280D8C-839F-4DA2-87B9-98E9EEB2B01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3280D8C-839F-4DA2-87B9-98E9EEB2B01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3280D8C-839F-4DA2-87B9-98E9EEB2B01C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D9F188B-2B8A-4F11-B453-B21956FF3BBA}
+	EndGlobalSection
+EndGlobal
