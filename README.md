@@ -1,10 +1,10 @@
 # PRTGAmpel Service - Documentation
 
 ## **Description**  
-The **PRTGAmpel** service monitors sensor data from multiple servers provided by the **`PRTGService(https://github.com/tommmy-ctrl/PRTGService)`** and controls a USB traffic light to visually represent the server statuses. The traffic light displays the current server state (`OK`, `Warning`, `Error`) and supports animation modes for specific events.  
+The **PRTGAmpel** service monitors sensor data from multiple servers provided by the **[PRTGService](https://github.com/tommmy-ctrl/PRTGService)** and controls a USB traffic light to visually represent the server statuses. The traffic light displays the current server state (`OK`, `Warning`, `Error`) and supports animation modes for specific events.  
 **Supported Traffic Light**: Cleware USB-TischAmpel4
 
-**Note**: The **PRTGAmpel** service depends on the **`PRTGService(https://github.com/tommmy-ctrl/PRTGService)`**, which fetches and stores sensor data from the PRTG API. Ensure that the **`PRTGService(https://github.com/tommmy-ctrl/PRTGService)`** is set up and running properly for **PRTGAmpel** to function as expected.
+**Note**: The **PRTGAmpel** service depends on the **[PRTGService](https://github.com/tommmy-ctrl/PRTGService)**, which fetches and stores sensor data from the PRTG API. Ensure that the **[PRTGService](https://github.com/tommmy-ctrl/PRTGService)** is set up and running properly for **PRTGAmpel** to function as expected.
 
 ---
 
