@@ -1,21 +1,23 @@
-# **PRTGAmpel Service - Documentation**
+# PRTGAmpel Service - Documentation
 
 ## **Description**  
-The **PRTGAmpel** service monitors sensor data from multiple servers provided by the `PRTGService` and controls a USB traffic light to visually represent the server statuses. The traffic light displays the current server state (`OK`, `Warning`, `Error`) and supports animation modes for specific events.  
+The **PRTGAmpel** service monitors sensor data from multiple servers provided by the **`PRTGService`** and controls a USB traffic light to visually represent the server statuses. The traffic light displays the current server state (`OK`, `Warning`, `Error`) and supports animation modes for specific events.  
 **Supported Traffic Light**: Cleware USB-TischAmpel4
+
+**Note**: The **PRTGAmpel** service depends on the **`PRTGService`**, which fetches and stores sensor data from the PRTG API. Ensure that the **`PRTGService`** is set up and running properly for **PRTGAmpel** to function as expected.
 
 ---
 
 ## **Prerequisites**  
 - **Operating System**: Windows 10/11 or Server editions with .NET support  
 - **.NET Framework**: .NET Framework 4.8.1  
-- **USB Device**: Cleware USB-TischAmpel4 
+- **USB Device**: Cleware USB-TischAmpel4  
 - **Administrator Rights**: Required for installation and uninstallation  
 
 ---
 
 ## **Installation Instructions**  
-**Download the latest version under Releases**
+**Download the latest version under Releases**  
 ### **Steps**  
 1. **Prepare Files**  
    - Extract the contents of `PRTGAmpel.zip`.  
@@ -109,5 +111,3 @@ The **PRTGAmpel** service monitors sensor data from multiple servers provided by
 - **Service Entries**  
   - The service is registered under the name `PRTGAmpel` in the Windows Services Manager.  
   - Configured to start automatically upon installation.  
-
-(C) Tom Kölsch @ CNAG
