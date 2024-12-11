@@ -109,3 +109,5 @@ The **PRTGAmpel** service monitors sensor data from multiple servers provided by
 - **Service Entries**  
   - The service is registered under the name `PRTGAmpel` in the Windows Services Manager.  
   - Configured to start automatically upon installation.  
+
+(C) Tom Kölsch @ CNAG
