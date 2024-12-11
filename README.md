@@ -15,7 +15,7 @@ The **PRTGAmpel** service monitors sensor data from multiple servers provided by
 ---
 
 ## **Installation Instructions**  
-
+**Download the latest version under Releases**
 ### **Steps**  
 1. **Prepare Files**  
    - Extract the contents of `PRTGAmpel.zip`.  
